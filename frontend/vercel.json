@@ -8,6 +8,7 @@
       }
     }
   ],
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "routes": [
     {
       "src": "/static/(.*)",
